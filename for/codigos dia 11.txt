@@ -1,0 +1,30 @@
+programa {
+	funcao inicio(){
+	     escreva("Par\t\tÍmpar\n\n")
+	    para (inteiro c=100; c<=200; c++)
+	    {
+	        se (c%2!=0)
+	        {
+	            escreva(c,"\n")
+	        }
+	        se (c%2!=1)
+	        {
+	            escreva(c,"\t\t")
+	        }
+	    }
+	}
+}
+
+programa {
+	funcao inicio() {
+	    inteiro n1, mult=1
+	    escreva("Digite um número: ")
+	    leia(n1)
+	    escreva(n1,"!= ")
+		para (inteiro n=1; n<=n1; n++)
+		{		    
+		    mult = mult*n
+		}
+		escreva(mult,"\n")
+	}
+}
